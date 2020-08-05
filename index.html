@@ -1,0 +1,31 @@
+<html>
+<head>
+ <title>Lab 7</title>   
+</head>
+<body>
+<h3>Having Fun with JavaScript Events</h3>
+    
+<p>Click on image to add to cart</p>
+<table id = "index">
+    <tr>
+        <td><img src="./img/gum1.jpg" alt="gum1.jpg" id = 'extra'/></td>
+        <td><img src="./img/gum3.jpg" alt="gum3.jpg" id = 'trident'/></td>
+        <td><img src="./img/gum2.jpg" alt="gum2.jpg" id = 'doubleMint'/></td>
+        <td><img src="./img/gum4.jpg" alt="gum4.jpg" id = 'bubbleGum'/></td>
+    </tr>
+    <tr>
+        <td id = 'items'>Shopping Cart Items:</td>
+        <td id = 'totalItems'></td>
+    </tr>
+    <tr>
+        <td id = 'price'>Shopping Cart Total:</td>
+        <td id = 'totalPrice'></td>
+    </tr>
+   <tr>
+        <td><input id="event" type="button" value="clear" onclick="clear()"></td>
+   </tr> 
+</table>
+<script src="./scripts/index.js"></script>
+<script src="./scripts/event.js"></script>
+</body>
+</html>
